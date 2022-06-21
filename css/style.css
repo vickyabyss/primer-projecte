@@ -117,3 +117,17 @@ header{
     opacity: 50%;
 }
 
+h3 {
+ font-size: 3rem;
+ font-weight: 500;
+}
+
+.hola {
+    display: flex;
+    margin: 4rem;
+    gap: 4rem;
+}
+
+.paragraf {
+    display: block;
+}
