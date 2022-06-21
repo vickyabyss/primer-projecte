@@ -1,0 +1,30 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cabecera {
+    opacity: 50%;
+}
