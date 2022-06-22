@@ -68,8 +68,12 @@ body {
 }
 
 header{
+    
     background-color: black;
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .logo{
@@ -90,6 +94,7 @@ header{
 
 .menu li a{
     padding: 2rem;
+    padding-bottom: 1.1rem;
     color: aliceblue;
 }
 
